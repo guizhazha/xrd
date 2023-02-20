@@ -1,24 +1,8 @@
-# xrd02
+背景和行业现状：
+X射线衍射（XRD）是一种广泛应用于材料科学、化学、地质学等领域的表征手段。XRD技术可以通过分析物质的结晶结构来获得材料的晶体结构信息。XRD实验通常需要绘制测试曲线和实验曲线进行比对，以确定材料的结晶性质。然而，由于XRD曲线数据的复杂性，手动比对曲线数据十分困难且容易出错。因此，自动化处理XRD曲线数据的需求日益增加。
 
-## Project setup
-```
-npm install
-```
+本方案要解决的问题：
+本方案提供了一种基于图像识别技术的XRD数据比对软件，旨在解决XRD曲线数据处理的自动化需求。该软件能够自动绘制测试曲线和实验曲线、识别图片中的文字和曲线，并在canvas中擦除多余痕迹，再次数据化，最终根据识别的横坐标数据绘制曲谱图。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+效果：
+使用该软件可以大大提高XRD曲线数据处理的效率和准确性，避免手动处理数据时可能出现的误差和漏洞。同时，该软件可以自动处理图片中的文字和曲线，减少人工操作的需求，提高实验室的工作效率。因此，该方案具有很高的实用价值和推广前景。
